@@ -10,7 +10,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.get('/api/home', (req, res) => {
+app.get('/', (req, res) => {
   res.send('Welcome to my server!');
 });
 
