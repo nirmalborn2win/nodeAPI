@@ -5,9 +5,9 @@
         "src": "server.mjs",
         "use": "@vercel/node"
         }
-    ],
-    "routes":[{
-        "src": "/.*",
-        "dist": "/server.mjs"
-    }]
+    ]
+    // "routes":[{
+    //     "src": "/.*",
+    //     "dist": "/server.mjs"
+    // }]
 }
