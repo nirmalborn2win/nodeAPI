@@ -7,7 +7,7 @@
         }
     ],
     "routes":[{
-        "src": "/(.*)",
-        "dist": "/"
+        "src": "/.*",
+        "dist": "/server.mjs"
     }]
 }
