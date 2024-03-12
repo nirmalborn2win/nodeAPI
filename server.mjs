@@ -1,7 +1,7 @@
 import express from "express";
 
 const app = express();
-const port = 3000;
+const port = 9090;
 
 app.use((req, res, next) => {
   res.append('Access-Control-Allow-Origin', ['*']);
@@ -10,7 +10,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.get('/api/home', (req, res) => {
+app.get('/', (req, res) => {
   res.send('Welcome to my server!');
 });
 
